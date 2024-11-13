@@ -92,12 +92,9 @@ The React app will be running on http://localhost:3000.
 The credentials for the MongoDB connection and other sensitive information should be stored in a .env.local file, which is not tracked by Git for security reasons.
 
 1. **Create a .env.local file in the root of the project directory**.
-
 You can base the file on the .env.local file provided in the repository (if you include one), or you can create it manually. Here's an example of what the file should look like:
-
-```bash
-USERNAME=your_mongo_username
-PASSWORD=your_mongo_password
+Replace your_mongo_username with your MongoDB username.
+Replace your_mongo_password with your MongoDB password.
 
 2. **Add your MongoDB credentials**
 
